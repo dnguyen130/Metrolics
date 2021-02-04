@@ -38,6 +38,7 @@ h1 {
 .titlelogo img {
     width: 0.214in;
     height: 0.214in;
+    margin-left: 2vw;
 }
 
 nav {
@@ -228,13 +229,16 @@ footer {
     background-color: #16242f;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    justify-content: space-between;
 }
 
 footer .row {
-    max-height: 29vh;
-    overflow: hidden;
+    max-height: 50vh;
     margin-bottom: 5%;
+}
+
+footer .row:first-child {
+    overflow: hidden;
 }
 
 h6 {
@@ -285,6 +289,34 @@ footer .subcolumn {
 
 .socialicon img {
     max-width: 100%;
+}
+
+.twiticon {
+    max-width: 3.5em;
+    margin: 5%;
+}
+
+.twiticon img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.tweetrow {
+    display: flex;
+    justify-content: left;
+    margin: 2% 0;
+}
+
+.tweetrow p {
+    margin-left: 5%;
+}
+
+.footerpic {
+    background-image: url(/img/placeholder.svg);
+    min-height: 1vh;
+    max-width: auto;
+    min-width: 100%;
+    margin: 0;
 }
 
 /*

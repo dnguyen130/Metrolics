@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" media="screen and (max-width: 39.9375em)" href="css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 40em) and (max-width: 63.9375em)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 64em)" href="css/desktop.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   
@@ -26,40 +28,25 @@
 
 <body>
     <main>
-        <header>
+        <header class="topbar">
             <div class= "titlelogo">
                 <h1>Metrolics</h1>
                 <img src="img/placeholder.svg" title="" alt="">
             </div>
             <nav>
                 <div class="navsection lightgreen">
-                    <figure class="navicon">
-                        <img src="filler.jpg" title="" alt="">
-                    </figure>
                     <h5 class="whitetext">Home</h5>
                 </div>
                 <div class="navsection orangeyellow">
-                    <figure class="navicon">
-                        <img src="filler.jpg" title="" alt="">
-                    </figure>
                     <h5 class="whitetext">Pages</h5>
                 </div>
                 <div class="navsection lightred">
-                    <figure class="navicon">
-                        <img src="filler.jpg" title="" alt="">
-                    </figure>
                     <h5 class="whitetext">Blog</h5>
                 </div>
                 <div class="navsection lightblue">
-                    <figure class="navicon">
-                        <img src="filler.jpg" title="" alt="">
-                    </figure>
                     <h5 class="whitetext">Portfolio</h5>
                 </div>
                 <div class="navsection darkblue">
-                    <figure class="navicon">
-                        <img src="filler.jpg" title="" alt="">
-                    </figure>
                     <h5 class="whitetext">Home</h5>
                 </div>
             </nav>
@@ -67,7 +54,7 @@
 
         <section class="banner">
             <figure class="arrow">
-                <img src="filler.jpg" title="" alt="">
+                <img src="img/placeholder.svg" title="" alt="">
             </figure>
             <div class="bannersubtitle">
                 <h2>Metro Style</h2>
@@ -75,7 +62,7 @@
                 <h2>Responsive Design</h2>
             </div>
             <figure class="arrow">
-                <img src="filler.jpg" title="" alt="">
+                <img src="img/placeholder.svg" title="" alt="">
             </figure>
         </section>
 
@@ -293,16 +280,16 @@
                 <h3>Thingsofabove</h3>
                 <p>Misc stuff we could not put anyplace else</p>
             </header>
-            <article class="content">
+            <article class="widecontent">
                 <div class="column">
-                    <div class="subcolumn">
-                        <h6 class="whitetext">Sample Accordian Menu</h6>
+                    <div class="widesubcolumn emphasis">
+                        <h6 class="whitetext">Sample Accordion Menu</h6>
                         <h6>+</h6>
                     </div>
-                    <div class="subcolumn">
+                    <div class="subrow grey">
                         <div class="subcolumn">
                             <figure class="mediumicon">
-                                <img src="filler.jpg" title="" alt="">
+                                <img src="img/placeholder.svg" title="" alt="">
                             </figure>
                         </div>
                         <div class="subcolumn">
@@ -311,89 +298,91 @@
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
                         </div>
                     </div>
-                    <div class="subcolumn">
-                        <h6 class="whitetext">Sample Accordian Menu 2</h6>
-                        <h6>+</h6>
+                    <div class="widesubcolumn">
+                        <h6 class="black">Sample Accordion Menu 2</h6>
+                        <h6 class="black">+</h6>
                     </div>
-                    <div class="subcolumn">
-                        <h6 class="whitetext">Sample Accordian Menu 3</h6>
-                        <h6>+</h6>
+                    <div class="widesubcolumn black">
+                        <h6 class="black">Sample Accordion Menu 3</h6>
+                        <h6 class="black">+</h6>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="subcolumn">
-                        <h6>Tab1</h6>
-                        <h6>Tab2</h6>
-                        <h6>Tab3</h6>
+                    <div class="subrow tab">
+                        <h6 class="tabselect">Tab1</h6>
+                        <h6 class="tabunselect">Tab2</h6>
+                        <h6 class="tabunselect">Tab3</h6>
                     </div>
-                    <div class="subcolumn">
-                        <div class="subcolumn">
-                            <figure class="smallimg">
-                                <img src="filler.jpg" title="" alt="">
-                            </figure>
+                    <div class="outline">
+                        <div class="subrow">
+                            <div class="subcolumn">
+                                <figure class="smallimg">
+                                    <img src="img/placeholder.svg" title="" alt="">
+                                </figure>
+                            </div>
+                            <div class="subcolumn">
+                                <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                            </div>
                         </div>
-                        <div class="subcolumn">
-                            <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                        <div class="subrow">
+                            <div class="subcolumn">
+                                <figure class="smallimg">
+                                    <img src="img/placeholder.svg" title="" alt="">
+                                </figure>
+                            </div>
+                            <div class="subcolumn">
+                                <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="subcolumn">
-                        <div class="subcolumn">
-                            <figure class="smallimg">
-                                <img src="filler.jpg" title="" alt="">
-                            </figure>
+                        <div class="subrow">
+                            <div class="subcolumn">
+                                <figure class="smallimg">
+                                    <img src="img/placeholder.svg" title="" alt="">
+                                </figure>
+                            </div>
+                            <div class="subcolumn">
+                                <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                            </div>
                         </div>
-                        <div class="subcolumn">
-                            <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
-                        </div>
-                    </div>
-                    <div class="subcolumn">
-                        <div class="subcolumn">
-                            <figure class="smallimg">
-                                <img src="filler.jpg" title="" alt="">
-                            </figure>
-                        </div>
-                        <div class="subcolumn">
-                            <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
-                        </div>
-                    </div>
-                    <div class="subcolumn">
-                        <div class="subcolumn">
-                            <figure class="smallimg">
-                                <img src="filler.jpg" title="" alt="">
-                            </figure>
-                        </div>
-                        <div class="subcolumn">
-                            <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                        <div class="subrow">
+                            <div class="subcolumn">
+                                <figure class="smallimg">
+                                    <img src="img/placeholder.svg" title="" alt="">
+                                </figure>
+                            </div>
+                            <div class="subcolumn">
+                                <p>Lorem ipsum dolor sit amet, consectuetur adipiscing elit. Sed quis lobortis arcu. Etam tempus lacus quis dui dapibus bibendum. Nullam a commodo nisl.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
 
-        <div class="row none">
+        <div class="imagerow none">
             <div class="column">
                 <a class="imglink" href="">
-                    <img src="filler.jpg" title="" alt="">
+                    <img src="img/placeholder.svg" title="" alt="">
                 </a>
             </div>
             <div class="column">
                 <a class="imglink" href="">
-                    <img src="filler.jpg" title="" alt="">
+                    <img src="img/placeholder.svg" title="" alt="">
                 </a>
             </div>
             <div class="column">
                 <a class="imglink" href="">
-                    <img src="filler.jpg" title="" alt="">
+                    <img src="img/placeholder.svg" title="" alt="">
                 </a>
             </div>
             <div class="column">
                 <a class="imglink" href="">
-                    <img src="filler.jpg" title="" alt="">
+                    <img src="img/placeholder.svg" title="" alt="">
                 </a>
             </div>
             <div class="column">
                 <a class="imglink" href="">
-                    <img src="filler.jpg" title="" alt="">
+                    <img src="img/placeholder.svg" title="" alt="">
                 </a>
             </div>
         </div>
@@ -417,7 +406,7 @@
 
         <hr>
 
-        <div class="row">
+        <div class="row grid">
             <article class="column">
                 <div class="none">
                     <div class="subcolumn">
@@ -445,28 +434,28 @@
             </article>
             <article class="column none">
                 <div class="subcolumn">
-                    <h5>About Us</h5>
+                    <h5>Flickr Photos</h5>
                 </div>
-                <div class="subcolumn">
+                <div class="subrow">
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                 </div>
-                <div class="subcolumn">
+                <div class="subrow">
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                     <figure class="contentimg">
-                        <img src="filler.jpg" title="" alt="">
+                        <img src="img/placeholder.svg" title="" alt="">
                     </figure>
                 </div>
             </article>
@@ -474,24 +463,24 @@
                 <div class="subcolumn">
                     <h5 class="whitetext">Recent Tweets</h5>
                 </div>
-                <div class="subcolumn">
+                <div class="tweetrow">
                     <div class="subcolumn">
                         <figure class="twiticon">
-                            <img src="filler.jpg" title="" alt="">
+                            <img src="img/placeholder.svg" title="" alt="">
                         </figure>
                     </div>
                     <p class="whitetext"><strong>@Minions</strong> - Ipsum potatoooo</p>
                 </div>
-                <div class="subcolumn">
+                <div class="tweetrow">
                     <div class="subcolumn">
                         <figure class="twiticon">
-                            <img src="filler.jpg" title="" alt="">
+                            <img src="img/placeholder.svg" title="" alt="">
                         </figure>
                     </div>
                     <p class="whitetext"><strong>@Minions</strong> - Ipsum potatoooo</p>
                 </div>
             </article>
-            <article class="column">
+            <article class="column none">
                 <div class="subcolumn">
                     <h5>Newsletter</h5>
                 </div>
@@ -502,7 +491,7 @@
                 </div>
                 <div class="subcolumn">
                     <div class="subcolumn">
-                        <p class="whitetext">Enter your Email...</p>
+                        <p class="whitetext email">Enter your Email...</p>
                     </div>
                     <div class="subcolumn">
                         <figure class="newsicon">
@@ -512,9 +501,8 @@
                 </div>
             </article>
         </div>
-        <figure class="footerpic">
-            <img src="filler.jpg" title="" alt="">
-        </figure>
+        <div class="footerpic">
+        </div>
     </footer>
 
 
